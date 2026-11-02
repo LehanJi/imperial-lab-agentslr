@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+data/human_validation
+.DS_Store
+
+# Local Python environments
+.venv/
+.venv-*/
+
+# Local credentials and machine-specific configuration
+config.json
+.env
+.env.*
+!.env.example
+
+# Local editor and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+node_modules
+.Rhistory

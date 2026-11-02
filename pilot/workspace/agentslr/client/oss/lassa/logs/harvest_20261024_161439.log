@@ -1,0 +1,21 @@
+2026-10-24 16:14:40,501 - INFO - Running harvest stage for pathogen=lassa mode=download_only
+2026-10-24 16:14:40,501 - INFO - Harvest root: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa
+2026-10-24 16:14:40,501 - INFO - PDF output dir: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_pdfs
+2026-10-24 16:14:40,501 - INFO - Harvest metadata path: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_metadata.csv
+2026-10-24 16:14:40,501 - INFO - Harvest downloaded path: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:14:40,501 - INFO - Loading metadata from /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:14:40,543 - INFO - [2026-10-24T15:14:40+00:00] Metadata rows ready for download: 20
+2026-10-24 16:14:40,558 - INFO - [2026-10-24T15:14:40+00:00] Total records: 20
+2026-10-24 16:14:40,558 - INFO - [2026-10-24T15:14:40+00:00] Already downloaded (flagged): 13
+2026-10-24 16:14:40,558 - INFO - [2026-10-24T15:14:40+00:00] To process: 7
+2026-10-24 16:14:40,558 - INFO - [2026-10-24T15:14:40+00:00] Starting downloads with 2 workers
+2026-10-24 16:14:43,655 - INFO - [2026-10-24T15:14:43+00:00] Progress: [2/7] (success: 13)
+2026-10-24 16:14:46,641 - INFO - [2026-10-24T15:14:46+00:00] Progress: [4/7] (success: 13)
+2026-10-24 16:14:48,454 - INFO - [2026-10-24T15:14:48+00:00] Progress: [6/7] (success: 13)
+2026-10-24 16:14:50,035 - INFO - Complete: lassa
+2026-10-24 16:14:50,035 - INFO - Total records: 20
+2026-10-24 16:14:50,035 - INFO - Successfully downloaded: 13
+2026-10-24 16:14:50,035 - INFO - Failed: 7
+2026-10-24 16:14:50,035 - INFO - Metadata saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_metadata.csv
+2026-10-24 16:14:50,036 - INFO - Downloaded output saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:14:50,036 - INFO - Progress saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_download_progress.csv

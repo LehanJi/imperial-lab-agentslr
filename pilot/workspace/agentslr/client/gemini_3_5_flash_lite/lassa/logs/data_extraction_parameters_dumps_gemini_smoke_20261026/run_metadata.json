@@ -1,0 +1,15 @@
+{
+    "run_id": "gemini_smoke_20261026",
+    "success": false,
+    "start_time": "2026-10-26T02:19:34.179565",
+    "model_name": "gemini-3.5-flash-lite",
+    "pathogen": "lassa",
+    "parameter_classes": [
+        "mutation_rate"
+    ],
+    "num_papers": 1,
+    "article_ids": [
+        "PMID_30500827"
+    ],
+    "duration_seconds": 19.170491
+}

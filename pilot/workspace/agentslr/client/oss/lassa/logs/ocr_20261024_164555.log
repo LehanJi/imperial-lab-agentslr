@@ -1,0 +1,28 @@
+2026-10-24 16:45:55,301 - INFO - Starting OCR stage with client=poppler input_source=harvest_downloaded_pdfs
+2026-10-24 16:45:56,095 - INFO - Loading OCR input from: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:45:56,115 - INFO - Filtered to 20 downloaded PDF rows for OCR.
+2026-10-24 16:45:56,123 - INFO - Running free Poppler extraction on 20 PDFs
+2026-10-24 16:45:56,124 - INFO - pdftotext binary: /Users/jilehan/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext
+2026-10-24 16:45:56,124 - INFO - Markdown directory: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/ocr/poppler/markdown
+2026-10-24 16:45:56,319 - INFO - [1/20] SUCCESS PMID_27630390: pages=5
+2026-10-24 16:45:56,360 - INFO - [2/20] SUCCESS PMID_25569707: pages=13
+2026-10-24 16:45:56,380 - INFO - [3/20] SUCCESS PMID_30500827: pages=13
+2026-10-24 16:45:56,396 - INFO - [4/20] SUCCESS PMID_37939051: pages=13
+2026-10-24 16:45:56,410 - INFO - [5/20] SUCCESS PMID_25105746: pages=10
+2026-10-24 16:45:56,428 - INFO - [6/20] SUCCESS PMID_32004125: pages=13
+2026-10-24 16:45:56,443 - INFO - [7/20] SUCCESS PMID_24959946: pages=7
+2026-10-24 16:45:56,508 - INFO - [8/20] SUCCESS PMID_28584177: pages=9
+2026-10-24 16:45:56,536 - INFO - [9/20] SUCCESS PMID_31017931: pages=13
+2026-10-24 16:45:56,561 - INFO - [10/20] SUCCESS PMID_25404077: pages=20
+2026-10-24 16:45:56,620 - INFO - [11/20] SUCCESS PMID_33684118: pages=16
+2026-10-24 16:45:56,667 - INFO - [12/20] SUCCESS PMID_19255625: pages=13
+2026-10-24 16:45:56,706 - INFO - [13/20] SUCCESS PMID_29775178: pages=6
+2026-10-24 16:45:56,758 - INFO - [14/20] SUCCESS PMID_36968239: pages=13
+2026-10-24 16:45:56,801 - INFO - [15/20] SUCCESS PMID_34868582: pages=7
+2026-10-24 16:45:56,892 - INFO - [16/20] SUCCESS PMID_36567369: pages=9
+2026-10-24 16:45:56,929 - INFO - [17/20] SUCCESS DOI_34069d387e46: pages=23
+2026-10-24 16:45:57,000 - INFO - [18/20] SUCCESS PMID_33657095: pages=24
+2026-10-24 16:45:57,039 - INFO - [19/20] SUCCESS PMID_33788861: pages=17
+2026-10-24 16:45:57,085 - INFO - [20/20] SUCCESS PMID_32845889: pages=29
+2026-10-24 16:45:57,116 - INFO - OCR output saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/articles_with_markdown.csv
+2026-10-24 16:45:57,117 - INFO - Poppler extraction complete: total=20 success=20 skipped=0 errors=0

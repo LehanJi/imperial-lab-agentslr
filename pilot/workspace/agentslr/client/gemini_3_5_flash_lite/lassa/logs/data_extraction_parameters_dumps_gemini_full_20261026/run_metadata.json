@@ -1,0 +1,29 @@
+{
+    "run_id": "gemini_full_20261026",
+    "success": true,
+    "start_time": "2026-10-26T02:22:35.263035",
+    "model_name": "gemini-3.5-flash-lite",
+    "pathogen": "lassa",
+    "parameter_classes": [
+        "seroprevalence",
+        "human_delay",
+        "severity",
+        "mutation_rate",
+        "relative_contribution",
+        "reproduction_number"
+    ],
+    "num_papers": 10,
+    "article_ids": [
+        "PMID_30500827",
+        "PMID_25569707",
+        "PMID_24959946",
+        "PMID_31017931",
+        "PMID_33684118",
+        "PMID_25404077",
+        "PMID_29775178",
+        "PMID_36567369",
+        "PMID_34868582",
+        "PMID_33788861"
+    ],
+    "duration_seconds": 692.465201
+}

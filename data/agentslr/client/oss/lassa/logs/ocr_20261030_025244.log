@@ -1,0 +1,10 @@
+2026-10-30 02:52:44,689 - INFO - Starting OCR stage with client=poppler input_source=harvest_downloaded_pdfs
+2026-10-30 02:52:47,127 - INFO - Loading OCR input from: /Users/jilehan/Desktop/urop/AgentSLR/INPUT_PDFS.csv
+2026-10-30 02:52:47,194 - INFO - Filtered to 2 downloaded PDF rows for OCR.
+2026-10-30 02:52:47,205 - INFO - Running free Poppler extraction on 2 PDFs
+2026-10-30 02:52:47,206 - INFO - pdftotext binary: /Users/jilehan/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext
+2026-10-30 02:52:47,206 - INFO - Markdown directory: /Users/jilehan/Desktop/urop/AgentSLR/data/agentslr/harvests/lassa/ocr/poppler/markdown
+2026-10-30 02:52:47,583 - INFO - [1/2] SUCCESS PMID_30500827: pages=13
+2026-10-30 02:52:47,589 - INFO - [2/2] SUCCESS PMID_31017931: pages=13
+2026-10-30 02:52:47,594 - INFO - OCR output saved to: /Users/jilehan/Desktop/urop/AgentSLR/data/agentslr/harvests/lassa/articles_with_markdown.csv
+2026-10-30 02:52:47,594 - INFO - Poppler extraction complete: total=2 success=2 skipped=0 errors=0

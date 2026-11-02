@@ -1,0 +1,18 @@
+2026-10-24 16:36:28,423 - INFO - Running harvest stage for pathogen=lassa mode=download_only
+2026-10-24 16:36:28,424 - INFO - Harvest root: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa
+2026-10-24 16:36:28,424 - INFO - PDF output dir: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_pdfs
+2026-10-24 16:36:28,425 - INFO - Harvest metadata path: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_metadata.csv
+2026-10-24 16:36:28,425 - INFO - Harvest downloaded path: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:36:28,426 - INFO - Loading metadata from /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:36:28,445 - INFO - [2026-10-24T15:36:28+00:00] Metadata rows ready for download: 20
+2026-10-24 16:36:28,461 - INFO - [2026-10-24T15:36:28+00:00] Total records: 20
+2026-10-24 16:36:28,462 - INFO - [2026-10-24T15:36:28+00:00] Already downloaded (flagged): 20
+2026-10-24 16:36:28,463 - INFO - [2026-10-24T15:36:28+00:00] To process: 0
+2026-10-24 16:36:28,463 - INFO - [2026-10-24T15:36:28+00:00] Starting downloads with 2 workers
+2026-10-24 16:36:28,470 - INFO - Complete: lassa
+2026-10-24 16:36:28,471 - INFO - Total records: 20
+2026-10-24 16:36:28,472 - INFO - Successfully downloaded: 20
+2026-10-24 16:36:28,473 - INFO - Failed: 0
+2026-10-24 16:36:28,473 - INFO - Metadata saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_metadata.csv
+2026-10-24 16:36:28,474 - INFO - Downloaded output saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:36:28,475 - INFO - Progress saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_download_progress.csv

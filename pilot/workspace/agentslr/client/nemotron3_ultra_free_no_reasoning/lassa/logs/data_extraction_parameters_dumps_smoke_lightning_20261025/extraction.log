@@ -1,0 +1,16 @@
+2026-10-25 04:08:23,488 - parameter_extraction_smoke_lightning_20261025 - INFO - PROCESSING ARTICLE ID PMID_30500827
+2026-10-25 04:08:31,709 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 0/6 parameter classes contain data
+2026-10-25 04:08:42,759 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 0/6 parameter classes contain data
+2026-10-25 04:09:09,794 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 0/6 parameter classes contain data
+2026-10-25 04:09:24,229 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 1/6 parameter classes contain data
+2026-10-25 04:09:47,271 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 1/6 parameter classes contain data
+2026-10-25 04:10:01,679 - parameter_extraction_smoke_lightning_20261025 - INFO - Screening complete for article PMID_30500827: 1/6 parameter classes contain data
+2026-10-25 04:10:01,689 - parameter_extraction_smoke_lightning_20261025 - INFO - Parameter seroprevalence did not pass screening for article_id PMID_30500827. Skipping extraction.
+2026-10-25 04:10:01,689 - parameter_extraction_smoke_lightning_20261025 - INFO - Parameter human_delay did not pass screening for article_id PMID_30500827. Skipping extraction.
+2026-10-25 04:10:01,689 - parameter_extraction_smoke_lightning_20261025 - INFO - Parameter severity did not pass screening for article_id PMID_30500827. Skipping extraction.
+2026-10-25 04:10:23,724 - parameter_extraction_smoke_lightning_20261025 - INFO - Successfully extracted 0 value(s) for mutation_rate from article PMID_30500827
+2026-10-25 04:10:23,727 - parameter_extraction_smoke_lightning_20261025 - INFO - No parameters extracted for mutation_rate in article_id PMID_30500827. Skipping.
+2026-10-25 04:10:23,727 - parameter_extraction_smoke_lightning_20261025 - INFO - Parameter relative_contribution did not pass screening for article_id PMID_30500827. Skipping extraction.
+2026-10-25 04:10:23,727 - parameter_extraction_smoke_lightning_20261025 - INFO - Parameter reproduction_number did not pass screening for article_id PMID_30500827. Skipping extraction.
+2026-10-25 04:10:23,729 - parameter_extraction_smoke_lightning_20261025 - WARNING - No parameters were extracted. /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/client/nemotron3_ultra_free_no_reasoning/lassa/logs/data_extraction_parameters_dumps_smoke_lightning_20261025/results/raw_parameters.jsonl does not exist.
+2026-10-25 04:10:23,733 - agentslr_testing - INFO - Parameter data extraction completed

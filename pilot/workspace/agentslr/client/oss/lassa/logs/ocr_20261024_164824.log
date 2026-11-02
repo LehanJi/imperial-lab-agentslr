@@ -1,0 +1,28 @@
+2026-10-24 16:48:24,342 - INFO - Starting OCR stage with client=poppler input_source=harvest_downloaded_pdfs
+2026-10-24 16:48:26,058 - INFO - Loading OCR input from: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/pilot_sample_downloads.csv
+2026-10-24 16:48:26,100 - INFO - Filtered to 20 downloaded PDF rows for OCR.
+2026-10-24 16:48:26,110 - INFO - Running free Poppler extraction on 20 PDFs
+2026-10-24 16:48:26,111 - INFO - pdftotext binary: /Users/jilehan/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext
+2026-10-24 16:48:26,112 - INFO - Markdown directory: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/ocr/poppler/markdown
+2026-10-24 16:48:26,130 - INFO - [1/20] SKIPPED PMID_27630390: pages=5
+2026-10-24 16:48:26,152 - INFO - [2/20] SKIPPED PMID_37939051: pages=13
+2026-10-24 16:48:26,164 - INFO - [3/20] SKIPPED PMID_30500827: pages=13
+2026-10-24 16:48:26,173 - INFO - [4/20] SKIPPED PMID_25569707: pages=13
+2026-10-24 16:48:26,184 - INFO - [5/20] SKIPPED PMID_25105746: pages=10
+2026-10-24 16:48:26,195 - INFO - [6/20] SKIPPED PMID_28584177: pages=9
+2026-10-24 16:48:26,210 - INFO - [7/20] SKIPPED PMID_24959946: pages=7
+2026-10-24 16:48:26,225 - INFO - [8/20] SKIPPED PMID_31017931: pages=13
+2026-10-24 16:48:26,241 - INFO - [9/20] SKIPPED PMID_32004125: pages=13
+2026-10-24 16:48:26,263 - INFO - [10/20] SKIPPED PMID_25404077: pages=20
+2026-10-24 16:48:26,282 - INFO - [11/20] SKIPPED PMID_33684118: pages=16
+2026-10-24 16:48:26,301 - INFO - [12/20] SKIPPED PMID_19255625: pages=13
+2026-10-24 16:48:26,321 - INFO - [13/20] SKIPPED PMID_36968239: pages=13
+2026-10-24 16:48:26,341 - INFO - [14/20] SKIPPED PMID_36567369: pages=9
+2026-10-24 16:48:26,364 - INFO - [15/20] SKIPPED PMID_29775178: pages=6
+2026-10-24 16:48:26,387 - INFO - [16/20] SKIPPED PMID_34868582: pages=7
+2026-10-24 16:48:26,409 - INFO - [17/20] SKIPPED DOI_34069d387e46: pages=23
+2026-10-24 16:48:26,446 - INFO - [18/20] SKIPPED PMID_32845889: pages=29
+2026-10-24 16:48:26,478 - INFO - [19/20] SKIPPED PMID_33657095: pages=24
+2026-10-24 16:48:26,518 - INFO - [20/20] SKIPPED PMID_33788861: pages=17
+2026-10-24 16:48:26,550 - INFO - OCR output saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/articles_with_markdown.csv
+2026-10-24 16:48:26,551 - INFO - Poppler extraction complete: total=20 success=0 skipped=20 errors=0

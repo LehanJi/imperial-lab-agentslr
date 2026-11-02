@@ -1,0 +1,7 @@
+2026-10-24 17:19:28,909 - INFO - Loading full-text screening input from: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/harvests/lassa/articles_with_markdown_blinded.csv
+2026-10-24 17:19:28,935 - INFO - Conducting full-text review on 20 papers
+2026-10-24 17:19:28,937 - INFO - Reasoning traces will be saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/client/nemotron3_ultra_free/lassa/logs/fulltext_screening_dumps_2026-10-24_17-19-28
+2026-10-24 17:19:28,981 - INFO - Results will be saved to: /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/client/nemotron3_ultra_free/lassa/screening/fulltext_screening.csv
+2026-10-24 17:19:28,981 - INFO - Run ID: 2026-10-24_17-19-28
+2026-10-24 17:19:28,981 - INFO - Reasoning effort: high, max_completion_tokens: 8192
+2026-10-24 17:21:26,328 - INFO - Processed 1/20 papers - saved to /Users/jilehan/Desktop/urop/AgentSLR/pilot/workspace/agentslr/client/nemotron3_ultra_free/lassa/screening/fulltext_screening.csv

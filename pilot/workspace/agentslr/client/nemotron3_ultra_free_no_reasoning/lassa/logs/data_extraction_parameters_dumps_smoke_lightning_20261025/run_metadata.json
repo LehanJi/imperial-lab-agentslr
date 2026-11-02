@@ -1,0 +1,20 @@
+{
+    "run_id": "smoke_lightning_20261025",
+    "success": true,
+    "start_time": "2026-10-25T04:08:23.472082",
+    "model_name": "nvidia/nemotron-3.5-lightning:free",
+    "pathogen": "lassa",
+    "parameter_classes": [
+        "seroprevalence",
+        "human_delay",
+        "severity",
+        "mutation_rate",
+        "relative_contribution",
+        "reproduction_number"
+    ],
+    "num_papers": 1,
+    "article_ids": [
+        "PMID_30500827"
+    ],
+    "duration_seconds": 120.257849
+}

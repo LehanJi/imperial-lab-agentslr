@@ -1,0 +1,17 @@
+pandas
+requests
+lxml
+urllib3
+tqdm
+openai
+scikit-learn
+matplotlib
+numpy
+seaborn
+reportlab
+cartopy
+plotly
+vllm
+mistralai
+huggingface_hub
+pyarrow

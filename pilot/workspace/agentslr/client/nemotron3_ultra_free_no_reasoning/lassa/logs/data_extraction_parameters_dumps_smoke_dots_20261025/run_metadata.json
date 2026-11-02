@@ -1,0 +1,20 @@
+{
+    "run_id": "smoke_dots_20261025",
+    "success": false,
+    "start_time": "2026-10-25T04:11:14.227765",
+    "model_name": "dots-studio/dots-3-note-preview:free",
+    "pathogen": "lassa",
+    "parameter_classes": [
+        "seroprevalence",
+        "human_delay",
+        "severity",
+        "mutation_rate",
+        "relative_contribution",
+        "reproduction_number"
+    ],
+    "num_papers": 1,
+    "article_ids": [
+        "PMID_30500827"
+    ],
+    "duration_seconds": 1.537595
+}

@@ -1,0 +1,236 @@
+{
+  "all_checks_passed": true,
+  "candidate_pools": {
+    "abstract_include_fulltext_exclude": 59,
+    "fulltext_include_with_parameter_gold": 42,
+    "fulltext_include_without_parameter_gold": 7
+  },
+  "checks": [
+    {
+      "check": "source_screening_row_count",
+      "detail": {
+        "actual": 667,
+        "expected": 667
+      },
+      "passed": true
+    },
+    {
+      "check": "source_parameters_row_count",
+      "detail": {
+        "actual": 440,
+        "expected": 440
+      },
+      "passed": true
+    },
+    {
+      "check": "source_models_row_count",
+      "detail": {
+        "actual": 52,
+        "expected": 52
+      },
+      "passed": true
+    },
+    {
+      "check": "source_outbreaks_row_count",
+      "detail": {
+        "actual": 30,
+        "expected": 30
+      },
+      "passed": true
+    },
+    {
+      "check": "screening_covidence_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "screening_covidence_id_unique",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "screening_downloaded_all_true",
+      "detail": 667,
+      "passed": true
+    },
+    {
+      "check": "screening_perg_subset_all_true",
+      "detail": 667,
+      "passed": true
+    },
+    {
+      "check": "perg_abstract_result_valid",
+      "detail": [
+        "EXCLUDE",
+        "INCLUDE"
+      ],
+      "passed": true
+    },
+    {
+      "check": "perg_fulltext_result_valid",
+      "detail": [
+        "EXCLUDE",
+        "INCLUDE"
+      ],
+      "passed": true
+    },
+    {
+      "check": "converted_harvest_row_count",
+      "detail": 667,
+      "passed": true
+    },
+    {
+      "check": "converted_screening_row_count",
+      "detail": 667,
+      "passed": true
+    },
+    {
+      "check": "converted_downloaded_reset_false",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "converted_download_path_cleared",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "parameters_covidence_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "parameters_record_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "parameters_record_id_unique",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "converted_parameters_row_count",
+      "detail": 440,
+      "passed": true
+    },
+    {
+      "check": "models_covidence_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "models_record_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "models_record_id_unique",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "converted_models_row_count",
+      "detail": 52,
+      "passed": true
+    },
+    {
+      "check": "outbreaks_covidence_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "outbreaks_record_id_complete",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "outbreaks_record_id_unique",
+      "detail": 0,
+      "passed": true
+    },
+    {
+      "check": "converted_outbreaks_row_count",
+      "detail": 30,
+      "passed": true
+    },
+    {
+      "check": "candidate_pools_support_planned_20_article_sample",
+      "detail": {
+        "abstract_include_fulltext_exclude": 59,
+        "fulltext_include_with_parameter_gold": 42,
+        "fulltext_include_without_parameter_gold": 7
+      },
+      "passed": true
+    }
+  ],
+  "dataset": "OxRML/AgentSLR",
+  "extractions": {
+    "models": {
+      "records": 52,
+      "unique_papers_all_gold": 52,
+      "unique_papers_in_oa_screening_subset": 10,
+      "unique_papers_outside_oa_screening_subset": 42
+    },
+    "outbreaks": {
+      "records": 30,
+      "unique_papers_all_gold": 26,
+      "unique_papers_in_oa_screening_subset": 8,
+      "unique_papers_outside_oa_screening_subset": 18
+    },
+    "parameters": {
+      "records": 440,
+      "unique_papers_all_gold": 147,
+      "unique_papers_in_oa_screening_subset": 42,
+      "unique_papers_outside_oa_screening_subset": 105
+    }
+  },
+  "parameter_classes": {
+    "Attack rate": 3,
+    "Growth rate": 3,
+    "Human delay": 56,
+    "Mutations": 16,
+    "Relative contribution": 3,
+    "Reproduction number": 7,
+    "Risk factors": 128,
+    "Seroprevalence": 139,
+    "Severity": 85
+  },
+  "revision": "01843a781bbd839c434c50271a7b1456a59cd656",
+  "screening_labels": {
+    "abstract": {
+      "EXCLUDE": 559,
+      "INCLUDE": 108
+    },
+    "fulltext": {
+      "EXCLUDE": 618,
+      "INCLUDE": 49
+    }
+  },
+  "source_files": {
+    "models": {
+      "columns": 12,
+      "path": "pilot/workspace/hf/AgentSLR/data/transmission_model_extractions_lassa/lassa.parquet",
+      "rows": 52,
+      "sha256": "9d379482c5de45a87caea5f17e0d1329903475f68fe3923d63b7dd8fc2577bb3"
+    },
+    "outbreaks": {
+      "columns": 22,
+      "path": "pilot/workspace/hf/AgentSLR/data/outbreak_extractions_lassa/lassa.parquet",
+      "rows": 30,
+      "sha256": "37e45e0977862160c3e5f05c2262c1a702c9670583c226e2f15e4f7ed10031d4"
+    },
+    "parameters": {
+      "columns": 62,
+      "path": "pilot/workspace/hf/AgentSLR/data/parameter_extractions_lassa/lassa.parquet",
+      "rows": 440,
+      "sha256": "0c77cee7649609bc9138c228f533e5289b0469e8976712f16c76eb4a1ddae71d"
+    },
+    "screening": {
+      "columns": 25,
+      "path": "pilot/workspace/hf/AgentSLR/data/harvest_metadata_and_screening/lassa.parquet",
+      "rows": 667,
+      "sha256": "6eaaed96c1f5167e654e74e7a9035e69c24b6659c51019a321f2a5e4d178228d"
+    }
+  }
+}

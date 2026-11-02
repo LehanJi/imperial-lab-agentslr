@@ -1,0 +1,23 @@
+# AgentSLR base dependencies for the macOS/OpenRouter pilot.
+#
+# This mirrors the upstream requirements.txt at commit
+# 3111fcf456c6fbcba768dfdce2bd2934d8cb5cef, except for vllm.
+# vLLM is intended for local NVIDIA GPU serving and is not needed when
+# AgentSLR calls the OpenRouter OpenAI-compatible endpoint.
+
+pandas
+requests
+lxml
+urllib3
+tqdm
+openai
+scikit-learn
+matplotlib
+numpy
+seaborn
+reportlab
+cartopy
+plotly
+mistralai
+huggingface_hub
+pyarrow

@@ -1,0 +1,29 @@
+{
+    "run_id": "smoke_cohere_20261025",
+    "success": false,
+    "start_time": "2026-10-26T00:11:44.734869",
+    "model_name": "cohere/north-mini-code:free",
+    "pathogen": "lassa",
+    "parameter_classes": [
+        "seroprevalence",
+        "human_delay",
+        "severity",
+        "mutation_rate",
+        "relative_contribution",
+        "reproduction_number"
+    ],
+    "num_papers": 10,
+    "article_ids": [
+        "PMID_30500827",
+        "PMID_25569707",
+        "PMID_24959946",
+        "PMID_31017931",
+        "PMID_33684118",
+        "PMID_25404077",
+        "PMID_29775178",
+        "PMID_36567369",
+        "PMID_34868582",
+        "PMID_33788861"
+    ],
+    "duration_seconds": 529.895604
+}
